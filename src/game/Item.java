@@ -12,6 +12,14 @@ public class Item {
 		amount--;
 	}
 
+	public void add(int a) {
+		amount += a;
+	}
+
+	public void remove(int a) {
+		amount -= a;
+	}
+
 	public void use() {
 	}
 }

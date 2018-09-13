@@ -1,0 +1,44 @@
+Item {
+	id = 1
+	name = "Granola Bar"
+	food = 5
+	desc = "Dry, condensed, sweetened oats in a rectangular shape"
+}
+
+Item {
+	id = 2
+	name = "Splint"
+	prevents_degeneration = applied
+	heal_area = bone_limb
+	desc = "Prevents broken bone degeneration by supporting fractures and breaks"
+	skill = medic_2
+}
+
+Item {
+	id = 3
+	name = "Ibuprofen"
+	prevents_pain = absolute
+	effectiveness = 0.5
+	intelligence > 4
+}
+
+Item {
+	id = 4
+	name = "Water Bottle"
+	water = 5
+	immunity = -0.1
+}
+
+Item {
+	id = 5
+	name = "Vitamin Tablets"
+	immunity = 0.1
+	intelligence > 3
+}
+
+Item {
+	id = 6
+	name = "Bacitracin"
+	immunity = 0.5
+	intelligence > 4
+}
